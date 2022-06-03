@@ -1,7 +1,6 @@
 /* SHORT HAND */
-
-let firstName = ''
 let defaultName 
+
 
 // If Else Condition
 function ifElse (firstName) {
