@@ -9,14 +9,14 @@ const testArray = [100, 200, 300, 400]
 const testString = 'Loop This!'
 
 // For Loop
-function loopFor() {
+function forLoop() {
   for (i = 0; i <= 100; i++) {
     console.log(i)
   }
 }
 
 // For In => Object && Array
-function loopForIn(paramVar) {
+function forInLoop(paramVar) {
   for (let x in paramVar) {
     console.log(x)
     console.log(paramVar[x])
@@ -24,14 +24,14 @@ function loopForIn(paramVar) {
 }
 
 // For Of => Array (and String)
-function loopForOf(paramVar) {
+function forOfLoop(paramVar) {
   for (let x of paramVar) {
     console.log(x)
   }
 }
 
-// Do While
-function loopDoWhile(paramVar) {
+// Do While => Int
+function doWhileLoop(paramVar) {
   let i = 0
 
   do {
@@ -40,8 +40,8 @@ function loopDoWhile(paramVar) {
   } while (i < paramVar)
 }
 
-// While Loop
-function loopWhile(paramVar) {
+// While Loop => Int
+function whileLoop(paramVar) {
   let i = 0
 
   while (i < paramVar) {

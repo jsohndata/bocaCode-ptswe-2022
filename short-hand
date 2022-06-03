@@ -1,0 +1,22 @@
+/* SHORT HAND */
+
+let userName = ''
+let defaultName;
+
+// Normal If Else Condition
+if (userName) {
+    defaultName = userName
+} else {
+    defaultName = 'Stranger'
+}
+
+console.log(defaultName)
+
+// Short-Circuit Evaluation
+let defaultName2 = userName || 'Stranger' 
+console.log(defaultName2)
+
+
+// Ternary Expression
+let defaultName3 = userName ? userName : 'Stranger'
+console.log(defaultName3)
