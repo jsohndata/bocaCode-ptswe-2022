@@ -1,22 +1,41 @@
 /* SHORT HAND */
 
-let userName = ''
-let defaultName;
+let firstName = ''
+let defaultName 
 
-// Normal If Else Condition
-if (userName) {
-    defaultName = userName
-} else {
-    defaultName = 'Stranger'
+// If Else Condition
+function ifElse (firstName) {
+    if (firstName) {
+        defaultName = firstName
+    } else {
+        defaultName = 'Stranger'
+    }
+
+    console.log(defaultName)
 }
 
-console.log(defaultName)
+// If Else One Line (For single process)
+function ifElseOneLine (firstName) {
+    if (firstName) defaultName = firstName
+    else defaultName = 'Stranger'
+
+    console.log(defaultName)
+}
 
 // Short-Circuit Evaluation
-let defaultName2 = userName || 'Stranger' 
-console.log(defaultName2)
+function shortCircuitEval (firstName) {
+    let defaultName = firstName || 'Stranger' 
+    console.log(defaultName)
+}
 
 
 // Ternary Expression
-let defaultName3 = userName ? userName : 'Stranger'
-console.log(defaultName3)
+function ternaryExpression (firstName) {
+    let defaultName = firstName ? firstName : 'Stranger'
+    console.log(defaultName)
+}
+
+ifElse('Jojo')
+ifElseOneLine('Jojo')
+shortCircuitEval('Jojo')
+ternaryExpression('Jojo')
