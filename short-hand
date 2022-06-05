@@ -1,3 +1,5 @@
+"use strict"
+
 /* SHORT HAND */
 let defaultName 
 
@@ -13,7 +15,7 @@ function ifElse (firstName) {
     console.log(defaultName)
 }
 
-// If Else One Line (For single process)
+// If Else One Line (For single line block)
 function ifElseOneLine (firstName) {
     if (firstName) defaultName = firstName
     else defaultName = 'Stranger'

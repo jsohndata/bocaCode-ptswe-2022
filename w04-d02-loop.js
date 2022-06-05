@@ -1,3 +1,5 @@
+"use strict"
+
 const testObject = {
   nameF: 'First Name',
   nameL: 'Last Name',
@@ -51,4 +53,4 @@ function whileLoop(paramVar) {
 }
 
 //loopForOf(testArray)
-loopDoWhile(200)
+doWhileLoop(200)

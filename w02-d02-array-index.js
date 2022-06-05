@@ -1,5 +1,7 @@
 // OBJ
 
+"use strict"
+
 const object = {
   name1: 1000,
   name2: 2000,

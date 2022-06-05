@@ -1,3 +1,5 @@
+"use strict"
+
 function fizzBuzz() {
   for (n=1; n<=30; n++) {
 
